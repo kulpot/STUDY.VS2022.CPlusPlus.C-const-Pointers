@@ -5,8 +5,19 @@ using std::endl;
 //----------------------- C++ const Pointers -----------------------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=tFjcDICYvE0&list=PLRwVmtr-pp070AKU7G71q8XyCRttsWIvi&index=5&t=3s
 
+class Cow
+{
+	int maxHeartBeats;
+	Cow(int maxBeats)
+	{
+		maxHeartBeats = maxBeats;
+	}
+};
 
+void main()
+{
 
+}
 
 
 
