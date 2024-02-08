@@ -2,30 +2,67 @@
 using std::cout;
 using std::endl;
 
+//----------------------- C++ const Pointers -----------------------------------------------------------------
+//ref link:https://www.youtube.com/watch?v=tFjcDICYvE0&list=PLRwVmtr-pp070AKU7G71q8XyCRttsWIvi&index=5&t=3s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //------------------------- C++ const data members ----------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=L1Jc4Mz6lp8&list=PLRwVmtr-pp070AKU7G71q8XyCRttsWIvi&index=5
 
-class Cow {
-	//const int ID;		// const cant initialize a assign value but in C#/Java it can
-public:
-	//Cow() : ID(5)	
-	//static const int ID;			// const means you cant change it, static just determines where its storage is located whether its 1value per instance or all instance
-	const int ID;		// move inside public for direct access
-	Cow(int myId) : ID(myId)		// more dynamic
-	{
-		//ID = 5;	//error ID is const , needs base class constructors ex. Cow() : ID(5) {}
-	}
-};
-
-void main()
-{
-	//const int MY_VALUE = 5;
-
-	Cow c(5);
-	Cow c2(13);
-	cout << c.ID << endl;
-	cout << c2.ID << endl;
-}
+//class Cow {
+//	//const int ID;		// const cant initialize a assign value but in C#/Java it can
+//public:
+//	//Cow() : ID(5)	
+//	//static const int ID;			// const means you cant change it, static just determines where its storage is located whether its 1value per instance or all instance
+//	const int ID;		// move inside public for direct access
+//	Cow(int myId) : ID(myId)		// more dynamic
+//	{
+//		//ID = 5;	//error ID is const , needs base class constructors ex. Cow() : ID(5) {}
+//	}
+//};
+//
+//void main()
+//{
+//	//const int MY_VALUE = 5;
+//
+//	Cow c(5);
+//	Cow c2(13);
+//	cout << c.ID << endl;
+//	cout << c2.ID << endl;
+//}
 
 
 
