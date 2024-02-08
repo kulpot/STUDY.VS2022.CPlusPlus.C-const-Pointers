@@ -7,6 +7,7 @@ using std::endl;
 
 class Cow
 {
+public:
 	int maxHeartBeats;
 	Cow(int maxBeats)
 	{
@@ -16,7 +17,7 @@ class Cow
 
 void main()
 {
-
+	Cow betsy(5);
 }
 
 
