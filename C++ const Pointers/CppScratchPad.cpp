@@ -12,6 +12,9 @@ public:
 	Cow(int maxBeats)
 	{
 		maxHeartBeats = maxBeats;
+		// class_name* const this;
+		this->maxHeartBeats = 234234234;
+		this = new Cow(234234);
 	}
 };
 
@@ -19,9 +22,15 @@ void main()
 {
 	Cow betsy(5);
 	// class_name* const this;
-	//Cow* betsyPtr = &betsy;
-	Cow const * const betsyPtr = &betsy;
+	
+	Cow* betsyPtr = &betsy;
+	//Cow const* const betsyPtr = &betsy;
+	//Cow const*  betsyPtr = &betsy;
+	//Cow * const betsyPtr = &betsy;
 	betsyPtr->maxHeartBeats = 10;
+
+	Cow georgy(5000);
+	betsyPtr = &georgy;
 }
 
 
