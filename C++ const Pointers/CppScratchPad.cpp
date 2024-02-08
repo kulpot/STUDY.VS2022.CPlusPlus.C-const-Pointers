@@ -18,6 +18,10 @@ public:
 void main()
 {
 	Cow betsy(5);
+	// class_name* const this;
+	//Cow* betsyPtr = &betsy;
+	Cow const * const betsyPtr = &betsy;
+	betsyPtr->maxHeartBeats = 10;
 }
 
 
